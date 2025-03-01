@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/alumni-sans": "^5.1.1",
     "@tailwindcss/vite": "^4.0.9",
+    "lorem-ipsum": "^2.0.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"

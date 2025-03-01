@@ -54,3 +54,24 @@
         font-size: 3rem;
     }
 }
+
+.offer-layout{
+    max-width: 1000px;
+}
+
+.offer-head{
+    font-size: 2.5rem;
+    font-family: "Alumni Sans", serif;
+    font-weight: bold;
+    color: #f5c550;
+}
+
+.offer-div{
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .offer-div{
+        height: 200vh;
+    }
+}
