@@ -11,6 +11,8 @@
     letter-spacing: 3px;
 }
 
+
+
 @media (max-width: 1024px ) {
     .nav-list{
         font-size: 1.2rem;
@@ -41,4 +43,28 @@
     cursor: pointer;
     text-transform: uppercase;
     animation: pulse 1s infinite;
+}
+
+.img-desc-image{
+    height: 300px;
+}
+
+.offer-layout{
+    max-width: 1000px;
+}
+
+.offer-head{
+    font-family: "Alumni Sans", serif;
+    font-weight: bold;
+    color: #f5c550;
+}
+
+.offer-div{
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .offer-div{
+        height: 150vh;
+    }
 }
