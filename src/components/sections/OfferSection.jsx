@@ -27,9 +27,9 @@ const OfferSection = () => {
 
 
     return (
-        <div className={"m-auto gap-y-2  bg-white flex flex-col " + styles['offer-layout']} id={"offer"}>
-            <p className={"p-0 m-0 mt-2 text-center uppercase text-2xl md:text-4xl " + styles['offer-head']}>Luxury on Every Plate</p>
-            <div className={"w-full " + styles['offer-div']}>
+        <div className={"m-auto gap-y-2  bg-white flex flex-col py-16 " + styles['offer-layout']} id={"offer"}>
+            <p className={"p-0 m-0 mt-2 text-center uppercase text-2xl md:text-5xl " + styles['offer-head']}>Luxury on Every Plate</p>
+            <div className={" w-full "}>
                 <div className={" "}>
                     <ImageDescriptionBlock source={wineImage} head={"Discover Our Exquisite Wines"} description={"Indulge in a handpicked selection of the finest wines. Each sip tells a story of craftsmanship and tradition. Elevate your dining experience with the perfect pairing."}/>
                 </div>

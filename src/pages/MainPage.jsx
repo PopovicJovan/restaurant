@@ -2,13 +2,14 @@ import NavBar from "../components/NavBar.jsx";
 import styles from './pages.module.css';
 import MakeReservationButton from "../components/MakeReservationButton.jsx";
 import OfferSection from "../components/sections/OfferSection.jsx";
+import MenuSection from "../components/sections/MenuSection.jsx";
 
 const MainPage = () => {
 
     return (
         <>
             <div className={styles['mainpage-picture-bg'] + " w-full"} id={"home"}>
-                <div className={"fixed top-0 right-0 me-2 mt-16 z-50"}>
+                <div className={"fixed top-0 right-0 me-2 mt-2 md:mt-16 z-50"}>
                     <MakeReservationButton text={"reserve table"}/>
                 </div>
                 <div className={styles['mainpage-overlay']}></div>
@@ -19,6 +20,7 @@ const MainPage = () => {
                 </div>
             </div>
             <OfferSection />
+            <MenuSection />
         </>
     )
 }

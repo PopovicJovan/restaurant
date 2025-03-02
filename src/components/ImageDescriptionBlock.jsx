@@ -7,15 +7,15 @@ const ImageDescriptionBlock = ({source, head, description, switchDiv=false}) => 
                 {!switchDiv && (
                     <>
                         <img src={source} alt={"image"} className={"w-1/2 m-0 mx-auto " +  styles['img-desc-image']}/>
-                        <div className={" w-full md:w-1/2 mx-auto mt-5 md:m-auto "}>
-                            <p className={"p-0 m-0 text-2xl lg:text-3xl uppercase text-center"}>{head}</p>
+                        <div className={" w-full sm:w-1/2 mx-auto mt-5 md:m-auto " + styles['img-desc-description']}>
+                            <p className={"p-0 m-0 text-xl md:text-3xl uppercase text-center"}>{head}</p>
                             <p className={"p-0 m-0 px-2 mt-3 text-center"}>{description}</p>
                         </div>
                     </>
                 )}
                 {switchDiv && (
                     <>
-                        <div className={"p-0 w-3/4 md:w-1/2 mx-auto mt-5 md:m-auto "}>
+                        <div className={"p-0 w-3/4 md:w-1/2 mx-auto mt-5 md:m-auto " + styles['img-desc-description']}>
                             <p className={"p-0 m-0 text-2xl lg:text-3xl uppercase text-center"}>{head}</p>
                             <p className={"p-0 m-0 px-2 mt-3 text-center"}>{description}</p>
                         </div>

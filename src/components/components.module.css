@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 768px ) {
-    .nav{
+    .nav>ul{
         display: none;
     }
 }
@@ -49,6 +49,12 @@
     height: 300px;
 }
 
+@media (max-width: 480px) {
+    .img-desc-image{
+        width: 75% !important;
+    }
+}
+
 .offer-layout{
     max-width: 1000px;
 }
@@ -59,12 +65,13 @@
     color: #f5c550;
 }
 
-.offer-div{
-    height: 100vh;
+
+.menu-button{
+    height: 100px;
+    width: 450px;
+    max-width: 90%;
 }
 
-@media (max-width: 768px) {
-    .offer-div{
-        height: 150vh;
-    }
+.img-desc-description{
+    height: 150px;
 }
