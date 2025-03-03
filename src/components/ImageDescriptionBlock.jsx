@@ -1,7 +1,6 @@
 import styles from './components.module.css';
 
 const ImageDescriptionBlock = ({source, head, description, switchDiv=false}) => {
-
     return (
         <div className={"px-2 flex flex-col md:flex-row m-auto"}>
                 {!switchDiv && (
