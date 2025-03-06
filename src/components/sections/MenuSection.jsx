@@ -36,7 +36,7 @@ const MenuSection = () => {
 
     return (
         <>
-            <div className={"w-full pt-4 pb-16 bg-black border-2 border-gold"}>
+            <div className={"w-full pt-4 pb-16 bg-black border-2 border-gold"} id={"menu"}>
                 <p className={"text-white text-center text-5xl uppercase my-5"}>Our Menu</p>
                 {labels.map((label, index) => {
                     return <MenuButton key={index} label={label} onClick={handleDownload} className={" mt-3"}/>

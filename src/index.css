@@ -17,3 +17,8 @@ html, body {
     color: #f5c550;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

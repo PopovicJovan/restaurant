@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@fontsource/alumni-sans": "^5.1.1",
+    "@react-google-maps/api": "^2.20.6",
     "@tailwindcss/vite": "^4.0.9",
+    "antd": "^5.24.2",
     "lorem-ipsum": "^2.0.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

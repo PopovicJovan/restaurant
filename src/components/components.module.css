@@ -145,3 +145,44 @@
         font-size: 3rem;
     }
 }
+
+
+.contact-form{
+    width: 500px;
+    max-width: 90%;
+    height: 60vh;
+    max-height: 100vh;
+}
+
+.contact-layout{
+    width: 1000px;
+    max-width: 100%;
+}
+
+.footer-list{
+}
+
+.footer-working-hours{
+    font-size: 1.2rem;
+}
+
+.footer-quick-links{
+    font-size: 1.2rem;
+}
+
+.footer-quick-links>div>span{
+    width: fit-content;
+}
+
+@media (max-width: 480px) {
+    .footer-social-media-working-hours{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-working-hours{
+        font-size: 1rem;
+    }
+}

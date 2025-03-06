@@ -9,7 +9,7 @@ const AboutUs = () => {
 
 
     return (
-        <div className={"w-full py-10 flex flex-col md:flex-row justify-center items-center gap-6"}>
+        <div className={"w-full py-10 flex flex-col md:flex-row justify-center items-center gap-6"} id={"about"}>
             <div id={"images"} className={"w-full md:w-1/3 flex flex-col justify-center items-center gap-2"}>
                 <img src={restaurantImg} className={styles['about-us-img'] + " w-3/4 md:w-1/2 h-auto"}/>
                 <img src={restaurantImg} className={styles['about-us-img'] +  " w-3/4 md:w-1/2 h-auto"}/>
