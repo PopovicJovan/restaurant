@@ -4,6 +4,7 @@ import AboutUs from "../components/sections/AboutUs.jsx";
 import Home from "../components/sections/Home.jsx";
 import Contact from "../components/sections/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import Reserve from "../components/sections/Reserve.jsx";
 
 const MainPage = () => {
 
@@ -11,6 +12,7 @@ const MainPage = () => {
         <>
             <Home />
             <OfferSection />
+            <Reserve />
             <MenuSection />
             <AboutUs />
             <Contact />

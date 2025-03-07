@@ -1,8 +1,8 @@
 import styles from './components.module.css';
 
-const MakeReservationButton = ({text}) => {
+const MakeReservationButton = ({text, onClick}) => {
     return (
-        <div className={styles['make-reservation-button']}>
+        <div className={styles['make-reservation-button']} onClick={onClick}>
             {text}
         </div>
     )
