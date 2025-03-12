@@ -231,3 +231,9 @@
     color: #f5c550;
     font-size: 1.2rem;
 }
+
+.google-map{
+    height: 400px;
+    width: 400px;
+    max-width: 90%;
+}

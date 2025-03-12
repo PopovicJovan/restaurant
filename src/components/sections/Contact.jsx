@@ -14,8 +14,6 @@ const Contact = () => {
     };
 
     const { TextArea } = Input;
-    const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-    const center = {lat:42.4355, lng:19.2591}
     const navigate = useNavigate();
     return (
         <div className={"border-2 border-black py-5 md:py-10"} id={"contact"}>
@@ -35,11 +33,9 @@ const Contact = () => {
                     <MyButton text={"CONTACT"} className={"w-full"} onClick={() => navigate(0)}/>
                 </div>
                 <div className={" w-full md:w-1/2 flex justify-center items-center mt-2 md:mt-0"}>
-                    <LoadScript googleMapsApiKey={apiKey}>
-                        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
-                            <Marker position={center} />
-                        </GoogleMap>
-                    </LoadScript>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23287.140038844256!2d19.273270185281874!3d42.44127939226318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2s!4v1741689478510!5m2!1ssr!2s"
+                        className={styles['google-map']}></iframe>
                 </div>
             </div>
         </div>

@@ -5,9 +5,9 @@ function App() {
 
 
   return (
-      <Router>
-        <Routes>
-          <Route index={true} path="/" element={<MainPage/>} />
+      <Router basename={"/restaurant"}>
+        <Routes >
+          <Route path="/" element={<MainPage/>} />
         </Routes>
       </Router>
   );
